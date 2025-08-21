@@ -228,7 +228,7 @@
                 const slider = document.getElementById("chaosSlider");
                 const sliderValue = slider.value;
                 // Map slider value (1-100) to tabs (5-200)
-                const minTabs = 1;
+                const minTabs = 50;
                 const maxTabs = 10000;
                 const times = Math.round(minTabs + (sliderValue - 1) * (maxTabs - minTabs) / 99);
 
